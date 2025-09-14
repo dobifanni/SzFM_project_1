@@ -21,3 +21,35 @@
 | Felület | K13 | Bejelentkezési oldal | 0.8 | A felület ahol a felhasználó bejelentkezhet fiókjába |
 | Felület | K14 | Singleplayer / Multiplayer lehetőség hozzáadása a felületen | 2.0 | A játékos kiválaszthatja hogy egyedül, vagy másokkal szeretne játszani |
 | Játék mechanika | K15 | Multiplayer mód megvalósítása játékon belül | 2.0 | A játékon belül kialakítani a többjátékos módot |
+
+## Szabad riport
+
+Weboldal, amin filmekkel kapcsolatos témák szerinti kakukktojás-kereső játékot lehet játszani. A játék rendelkezne időmérővel és pontszámlálóval. A filmek adatait autómatikusan, külső forrásból gyűjti be. A pontszámokat felhasználói fiókhoz kötve rögzíti az oldal, különböző készülékeken elérhetőek.
+
+## Irányított riport
+
+ - **Külső forrásból milyen adatok lesznek összegyűjtve?**
+ - Filmek címe, műfaja, színészei, kiadásuk éve.
+
+ - **Milyen adatok lesznek nyílvánosan elérhetők a felhasználókról?**
+ - Csak a felhasználónevük és pontszámaik.
+
+ - **Miből áll egy "kakukktojás-kereső" játék?**
+ - Felsorolt filmek közül a felhasználó kiválasztja a valamilyen kritérium alapján többihez nem hasonlót.
+
+ - **Lesznek-e az oldalon hírdetések megjelenítve?**
+ - Első verzióban nem, a későbbiekben igen, előfizetett felhasználók kivételével mindenkinek.
+
+## Igényelt üzleti folyamatok
+
+1. Online megjelenés
+    1. Belépés: Felhasználónév + jelszó megadása
+    2. Regisztráció: Felhasználónév + jelszó kiválasztása ==> Jelszó megerősítése ==> Belépés
+    3. Főmenü: Belépés ==> Főmenü
+    4. Pontozás: Belépés ==> Főmenü ==> Pontozás
+    5. Játék: Belépés ==> Főmenü ==> Játék indítása
+    6. Kijelentkezés: Belépés ==> Főmenü ==> Kijelentkezés
+
+## Vágyálomrendszer
+
+A cél egy népszerű netes játék fejlesztése, amin világszerte összemérhetik emberek a filmes tudásukat. Multiplayer implementálásával és új játékmódokkal az emberek hosszú távon élvezhetik a kínált terméket. Több nyelv támogatásával a határainkon túl is népszerűsítve a terméket.
