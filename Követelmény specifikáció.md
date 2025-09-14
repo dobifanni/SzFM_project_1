@@ -56,3 +56,13 @@ Weboldal, amin filmekkel kapcsolatos témák szerinti kakukktojás-kereső ját�
 ## Vágyálomrendszer
 
 A cél egy népszerű netes játék fejlesztése, amin világszerte összemérhetik emberek a filmes tudásukat. Multiplayer implementálásával és új játékmódokkal az emberek hosszú távon élvezhetik a kínált terméket. Több nyelv támogatásával a határainkon túl is népszerűsítve a terméket.
+
+## Rendszerre vonatkozó jogszabályok, szabványok és irányelvek
+### Adatvédelem és adatkezelés
+
+A rendszer az email-címeket, felhasználóneveket, a jelszavak hashelt formáját, valamint a felhasználók előrehaladási adatait kezeli. Ennek során kötelező a [GDPR (General Data Protection Regulation)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R0679-20160504) előírásainak betartása. Ez magában foglalja a személyes adatok védelmét, a biztonságos adatkezelést és a felhasználói jogok érvényesítését, mint például az adatkezelési tájékoztatáshoz való jog, valamint az adatokhoz való hozzáférés, módosítás és törlés lehetősége.
+
+### Szerzői jogok és külső API-k használata
+Az alkalmazásban felhasznált, harmadik félhez tartozó tartalmak esetén be kell tartani a vonatkozó szerzői jogi és licencfeltételeket:
+-	Google API: https://developers.google.com/books/terms
+-	TheMovieDB: https://www.themoviedb.org/api-terms-of-use
