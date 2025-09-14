@@ -66,3 +66,28 @@ A rendszer az email-címeket, felhasználóneveket, a jelszavak hashelt formáj�
 Az alkalmazásban felhasznált, harmadik félhez tartozó tartalmak esetén be kell tartani a vonatkozó szerzői jogi és licencfeltételeket:
 -	Google API: https://developers.google.com/books/terms
 -	TheMovieDB: https://www.themoviedb.org/api-terms-of-use
+
+## Fogalomszótár – Filmekkel kapcsolatos fogalmak
+### Általános fogalmak
+-	Műfaj (genre): A filmek csoportosítása közös témák, stílusok vagy narratív elemek alapján (pl. horror, vígjáték, sci-fi).
+-	Alműfaj: Egy műfajon belüli specializált irányzat, például a sci-fi-n belül a cyberpunk.
+-	Forgatókönyv: A film történetének írásos alapja, amely tartalmazza a dialógusokat és jelenetleírásokat.
+-	Adaptáció: Film, amely egy könyv, képregény, játék vagy más médium alapján készült.
+### Filmes műfajok
+-	Akciófilm: Látványos, gyors tempójú film, amely harcokra, üldözésekre és izgalmas szituációkra épül.
+-	Vígjáték: Olyan film, amely humorral és komikus helyzetekkel szórakoztatja a közönséget.
+-	Horror: Félelmet vagy feszültséget keltő film, gyakran természetfeletti vagy ijesztő elemekkel.
+-	Thriller: Feszültségközpontú film, amely rejtélyekre, fordulatokra és izgalomra épít.
+-	Romantikus film: A szerelem és kapcsolatok állnak a középpontban.
+-	Sci-fi: Jövőbeli, tudományos vagy technológiai elemeket feldolgozó film.
+-	Fantasy: Mágia és képzeletbeli világok köré épített történet.
+-	Dokumentumfilm: Valós eseményekről, emberekről vagy jelenségekről készített film.
+### Filmes jelenségek és kifejezések
+-	Blockbuster: Magas költségvetésű, széles közönségnek készült kasszasiker film.
+-	Kultfilm: Sajátos hangulatú vagy témájú film, amely különleges rajongótáborral rendelkezik.
+-	Franchise: Egy film sikerére épülő több részből, folytatásokból és kapcsolódó tartalmakból álló sorozat.
+-	Cameo: Rövid, gyakran meglepetésszerű szereplés egy híres színész, rendező vagy közszereplő részéről.
+-	Spin-off: Egy meglévő film vagy sorozat mellékszálából vagy karakteréből készített új történet.
+-	Reboot: Olyan film vagy filmsorozat újraindítása, amely teljesen új megközelítést ad az eredeti témának.
+-	Prequel: Egy már ismert történet előzményeit bemutató film.
+-	Sequel: Egy film folytatása, amely az előző események után játszódik.
