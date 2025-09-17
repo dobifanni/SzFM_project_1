@@ -4,7 +4,7 @@
 A filmekkel kapcsolatos kakukktojás-keresés jelenleg leginkább egyszerű listák vagy felsorolások formájában történik, ahol különböző műfajokat vagy kategóriákat állítanak egymás mellé. A feladat lényege annak felismerése, hogy a felsorolt elemek közül melyik tér el a többitől, ám a megvalósítás jelenleg inkább alapvető és manuális módszereken alapul.
 
 ## Jelenlegi üzleti folyamatok modellje
-![Jelenlegi üzleti folyamatok modellje](./assets/jelenlegi_uzleti_folyamat_abra.png)
+![Jelenlegi üzleti folyamatok modellje](../assets/jelenlegi_uzleti_folyamat_abra.png)
 
 ## Követelménylista
 | Modul | ID | Név | Verzió | Kifejtés |
