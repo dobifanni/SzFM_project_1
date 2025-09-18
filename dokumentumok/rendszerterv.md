@@ -17,26 +17,26 @@ Használati esetek és lefutásaik:
 
 - új felhasználó regisztráció
 
-![Regisztráció](./assets/hasznalati_esetek_abra/registration.png)
+![Regisztráció](../assets/hasznalati_esetek_abra/registration.png)
 
 - regisztrált felhasználó bejelentkezik
 
-![Bejelentkezés](./assets/hasznalati_esetek_abra/login.png)
+![Bejelentkezés](../assets/hasznalati_esetek_abra/login.png)
 
 - bejelentkezett felhasználó kijelentkezik
 
-![Kijelentkezés](./assets/hasznalati_esetek_abra/logout.png)
+![Kijelentkezés](../assets/hasznalati_esetek_abra/logout.png)
 
 - bejelentkezett felhasználó új játékot indít
 
-![Játékkezdés](./assets/hasznalati_esetek_abra/gamestart.png)
+![Játékkezdés](../assets/hasznalati_esetek_abra/gamestart.png)
 
 - játékos játékmenet végére ér
 
-![Játékvége](./assets/hasznalati_esetek_abra/gameend.png)
+![Játékvége](../assets/hasznalati_esetek_abra/gameend.png)
 
 - játékos megnyitja a pontszámtáblát az elért pontszámért
 
-![Pontszámtábla](./assets/hasznalati_esetek_abra/scoreboard.png)
+![Pontszámtábla](../assets/hasznalati_esetek_abra/scoreboard.png)
 
 
