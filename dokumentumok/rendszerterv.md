@@ -100,7 +100,7 @@ Az architektúra fő elemei a következők:
 - Adatbázis: Az SQLite rendszer, amelyben a felhasználói adatok tárolódnak.
 
 ## Adatbázis terv
-![Adatbazismodel] (https://github.com/dobifanni/SzFM_project_1/blob/main/assets/adatbazisdiagram.png)
+![Adatbazismodel](https://github.com/dobifanni/SzFM_project_1/blob/main/assets/adatbazisdiagram.png)
 
 Az adatbázisban a **User** táblában tároljuk a regisztrációkor megadott adatokat, a **Scores** táblában pedig az általuk elért pontszámokat.
 **Users**:
@@ -119,7 +119,7 @@ Az adatbázisban a **User** táblában tároljuk a regisztrációkor megadott ad
 ## Üzleti folyamatok modellje
 
 ### Megvalósítás folyamatának modellje
-![Megvalositasmodel] (../assets/megvalositasmodel.png)
+![Megvalositasmodel](../assets/megvalositasmodel.png)
 
 ### Szolgáltatás folyamatának modellje
-![Szolgaltatasmodel] (../assets/szolgaltatasmodel.png)
+![Szolgaltatasmodel](../assets/szolgaltatasmodel.png)
