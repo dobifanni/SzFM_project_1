@@ -1,5 +1,36 @@
 # Rendszerterv
 
+## Projektterv
+### Csapattagok
+•	Ujj Ádám: backend és frontend fejlesztő és tesztelő
+•	Varga Szabolcs: backend és frontend fejlesztő és tesztelő
+•	Dobi Fanni: backend és frontend fejlesztő és tesztelő, web designer
+### Szerepkörök
+•	Backend fejlesztő: A szerveroldali logika és az adatkezelés megvalósításáért felel, például adatbázis-tervezés, API-k kialakítása.
+•	Frontend fejlesztő: A kliensoldali működés és a felhasználói élmény kialakítása, a képernyőtervek implementálása.
+⦁	Backend tesztelő: backend oldalon történő műveletek tesztelése.
+⦁	Frontend tesztelő: frontend oldalon történő műveletek tesztelése.
+•	Web designer: A weboldal kinézetének és felhasználói felületének megtervezése.
+### Ütemterv és mérföldkövek
+Sprint 1 – Fejlesztés
+•	Felhasználókezelés (regisztráció, bejelentkezés, kijelentkezés, személyre szabott adatok tárolása)
+•	Játék alapstruktúrájának kialakítása: témakörök és kérdések kezelése
+•	Backend: adatmodell létrehozása a játékhoz (pl. témák, válaszlehetőségek, eredmények tárolása)
+Sprint 2 – Fejlesztés
+•	Időzítő és pontszámítás implementálása
+•	Kakukktojás-kiválasztó mechanika beépítése
+•	Backend: eredmények és statisztikák kezelése
+•	Mérföldkő: a játék már működőképes és kipróbálható.
+Sprint 3 – Fejlesztés
+•	Felhasználói tesztelésből érkező visszajelzések feldolgozása
+•	Nehézségi szintek, plusz funkciók (pl. toplista) beépítése
+Sprint 4 – Tesztelés
+•	Frontend és backend külön-külön ellenőrzése
+•	Unit tesztek készítése
+Sprint 5 – Tesztelés
+•	A teljes rendszer összehangolt vizsgálata felhasználói szemszögből
+•	Mérföldkő: a weboldal teljes, használatra kész verziója elkészül
+
 ## Fizikai környezet
 Fizikai környezet alapján a rendszer bontható két részre.
 ### Backend
