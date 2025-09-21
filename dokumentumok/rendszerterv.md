@@ -98,3 +98,28 @@ Az architektúra fő elemei a következők:
 - Adat modell: Az adatbázis táblák és kapcsolatok leírása, illetve a rajtuk végzett műveletek megvalósítása.
 - Konfiguráció: A backend beállításokat tartalmazó fájl, például az adatbázis elérési útja, külső API-k kulcs és egyéb paraméterek.
 - Adatbázis: Az SQLite rendszer, amelyben a felhasználói adatok tárolódnak.
+
+## Adatbázis terv
+![Adatbazismodel] (../assets/adatbazisdiagram.png)
+
+Az adatbázisban a **User** táblában tároljuk a regisztrációkor megadott adatokat, a **Scores** táblában pedig az általuk elért pontszámokat.
+**Users**:
+ - id: int, elsődleges kulcs
+ - username: felhasználónév, string, unique megszorítással
+ - email: email cím, string
+ - password\_hashed: hash-elt jelszó, string
+
+ **Scores**
+  - id: int, elsődleges kulcs
+  - user\_id: int, külső kulcs
+  - category: kategória, amiben el lett érve az eredmény, string
+  - score: elért eredmény, int
+  - time: teljesítés ideje, time (mm:ss)
+
+## Üzleti folyamatok modellje
+
+### Megvalósítás folyamatának modellje
+![Megvalositasmodel] (../assets/megvalositasmodel.png)
+
+### Szolgáltatás folyamatának modellje
+![Szolgaltatasmodel] (../assets/szolgaltatasmodel.png)
