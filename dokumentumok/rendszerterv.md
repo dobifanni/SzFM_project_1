@@ -154,3 +154,39 @@ Az adatbázisban a **User** táblában tároljuk a regisztrációkor megadott ad
 
 ### Szolgáltatás folyamatának modellje
 ![Szolgaltatasmodel](../assets/szolgaltatasmodel.png)
+
+## Tesztterv
+
+### Frontend tesztterv
+Cél: A frontend működésének ellenőrzése.
+A kezdőoldalon a látogató számára meg kell jelenjen a regisztráció vagy bejelentkezés lehetősége. Sikeres belépés után a főképernyőn különböző témakörökből választhat, majd elindíthatja a játékot. A játék során ki tudja jelölni a kakukktojást, miközben az időzítő méri az időt, és pontokat gyűjthet. A játszma végén az eredménytáblán (Scoreboard) láthatóvá kell váljanak az elért pontok, és biztosítva kell lennie a kijelentkezésnek is.
+Tesztelési típusok:
+•	Unit és end-to-end tesztek:
+o	Ellenőrizni kell, hogy a Scoreboard pontos adatokat jelenít meg.
+o	A kakukktojás helyes vagy hibás kiválasztása megfelelő következményekkel járjon.
+o	A frontend komponensek (gombok, oldalak) helyesen működjenek és jól jelenjenek meg.
+o	Az oldalak közötti navigáció zökkenőmentes legyen.
+o	A frontend metódusok (pl. időzítő, pontszámítás) megfelelően fussanak le.
+•	Alfa teszt:
+o	A fejlesztők saját kezűleg, felhasználói szemszögből vizsgálják a rendszert.
+o	Cél a hibák, vizuális eltérések vagy használhatósági problémák feltárása.
+o	Ez a tesztelés a fejlesztési szakaszban és a kész verziónál is zajlik.
+
+### Backend tesztterv
+Cél: A szerveroldali működés, az adatkezelés és az API-k megbízhatóságának vizsgálata.
+A backend feladata többek között a felhasználói hitelesítés, a játék eredmények tárolása és megosztása, valamint a hibás kérések megfelelő kezelése. Az API-knak helyesen kell működniük, a felhasználók gond nélkül tudjanak regisztrálni, belépni, játszani, és a Scoreboard helyes adatokat mutasson.
+Tesztelési típusok:
+•	Unit teszt:
+o	Cél: Részletes ellenőrzés a fejlesztés során, API végpontok és az adatkezelési logika helyességéről.
+o	Tesztelendő területek:
+	Felhasználói hitelesítés: regisztráció és bejelentkezés tesztelése helyes és hibás adatokkal.
+	Eredménykezelés: a Scoreboard frissülése a játszmák végén.
+	Adatok hitelessége: biztosítani kell, hogy a tárolt pontszámok és statisztikák mindig pontosak legyenek.
+o	Módszer: Pozitív és negatív tesztesetek lefuttatása, különböző adatbázis-állapotok vizsgálata, minden végponthoz külön ellenőrző esetek készítése.
+•	Alfa teszt:
+o	Cél: A rendszer egészének kipróbálása a felhasználó szemszögéből.
+o	Tesztelendő területek:
+	Felhasználói funkciók: regisztráció, belépés, játék indítása, kakukktojás választás, eredmények megtekintése.
+	Adatkezelés: a felhasználói műveletek pontos hatásainak ellenőrzése az adatbázisban.
+	Hibakezelés: a rendszer adjon megfelelő visszajelzést hibás bevitelnél vagy rossz kéréseknél.
+o	Módszer: Manuális tesztelés valós felhasználói szituációk szimulálásával, hibás adatok és rendellenes helyzetek kipróbálásával.
